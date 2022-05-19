@@ -1,0 +1,204 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-image: url("images/bg-desktop.svg");
+    background-color: hsl(256, 86%, 23%);
+    background-size:cover;
+    color: white;
+    background-repeat: repeat;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.flex_header{
+    display: flex;
+    
+}
+.icon-github{
+    display: inline-flex;
+    font-size: 50px;
+    margin-left: 50px;
+    margin-top: 25px;
+
+}
+
+
+h1{
+    display: inline-flex;
+   margin-right: 20px;
+    font-size: 40px;
+    padding-left: 25px;
+}
+h2{
+    font-size: 45px;
+    line-height: 1.5
+}
+.flex_item_text{
+
+    font-size:18px;
+    line-height: 1.5;
+    
+}
+
+.flex_input{
+    display: flex;
+   
+}
+.flex_input input:hover{
+   background-color:  rgb(218, 25, 147);
+   cursor: pointer;
+   transition: 0.3s;
+}
+
+input{
+
+    width: 155px;
+    height: 45px;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 2px 3px 5px black;
+    font-size: 15px;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+ 
+}
+
+
+.flex_container{
+    display: flex;
+    
+    margin: 50px;
+    margin-bottom: 25px;
+    flex-wrap: wrap;
+    
+}
+
+.flex_img img, .flex_img{
+    flex-grow: 1;
+}
+
+img{
+    width: 100%;
+    min-width: 200px;
+    min-height: 70px;
+}
+.flex_item{
+    padding: 25px;
+    margin: 25px;
+    
+    
+
+}
+
+.flex_item h2, .flex_item p{
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 100px;
+    min-height: 100px;
+}
+.attribution{
+    font-size: 10px;
+    text-align: left;
+    margin-top: 100px;
+    display: inline-block;
+    ;
+
+}
+
+.flex_icon{
+
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: -85px;
+    margin-right: 55px;
+    font-size: 20px;
+   
+}
+
+.icon-facebook{
+    
+    margin: 5px;
+    padding: 5px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.icon-twitter{
+    margin: 5px;
+    padding: 5px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+.icon-instagram{
+    margin: 5px;
+    padding: 5px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.icon-facebook:hover {
+    background-color:  rgb(218, 25, 147);
+   cursor: pointer;
+   transition: 0.3s;
+}
+.icon-twitter:hover{
+    background-color:  rgb(218, 25, 147);
+   cursor: pointer;
+   transition: 0.3s;
+
+}
+
+.icon-instagram:hover{
+    background-color:  rgb(218, 25, 147);
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+
+
+@media screen and (min-width: 375px) and (max-width: 700px)
+ {
+    body{
+        background-image: url("images/bg-mobile.svg");
+        background-size: cover;
+    }
+    .flex_header{
+        font-size: 25px;
+    }
+
+    .flex_container{
+        margin-top: 100px;
+        justify-content: center;
+    }
+
+    .flex_item{
+        
+        margin: auto;
+    }
+
+     .flex_item p{
+    
+         text-align: center;
+        font-size: 15px;
+    }
+    .flex_item h2{
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .flex_icon{
+        font-size: 10px;
+        justify-content: center;
+    }
+
+    .flex_input{
+        width: 280px;
+      
+        justify-content: center;
+    }
+    
+    input{
+        width: 250px;
+    }
+}
